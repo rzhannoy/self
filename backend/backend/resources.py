@@ -12,10 +12,6 @@ class BaseResource(ModelResource):
             'message': message,
         }, http.HttpBadRequest))
 
-    # def process_request(self, request, allowed=['post']):
-    #     self.method_check(request, allowed=allowed)
-    #     self.is_authenticated(request)
-
     def serialize_obj(self, request, obj, extra_data=None, **kwargs):
         bundle = self.build_bundle(obj=obj, request=request)
 

@@ -1,11 +1,11 @@
 Hi {{name}},
 
-Thanks for subscribing.
-
-I'd generally sent you a notification once every couple of months when new content is available (yep, I'm that lazy).
+Thanks for subscribing!
 
 Please open the following link to confirm your email:
 {{link|safe}}
+
+I'd generally sent you a notification once every couple of months when new content is available.
 
 Best,
 Nick
