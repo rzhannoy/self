@@ -43,10 +43,6 @@ export default {
 
   &:hover
     background-color c-primary-bg
-    // background-color c-grey-dark
-
-    // *
-    //   color #fff !important
 
 .tile-description
   margin-top 16px

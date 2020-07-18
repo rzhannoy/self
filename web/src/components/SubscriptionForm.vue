@@ -57,7 +57,6 @@ export default {
         } else {
           this.Subscriber.post('register/', this.objData)
             .then(res => {
-              // console.log('handleSubmit', res.data)
               if (res.data.success) {
                 this[types.NOTIFY]({
                   type: 'success',
@@ -137,6 +136,5 @@ export default {
 .form-tsp
   margin-top 8px
   font-size 14px
-  // font-style italic
   color c-grey
 </style>

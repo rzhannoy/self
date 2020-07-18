@@ -64,7 +64,7 @@ export default {
     initPost () {
       this.post = this.posts.find(obj => obj.slug === this.slug)
 
-      if (this.post) {
+      if (this.post.id) {
         this[types.RECORD_HIT]({
           type: this.Hit.POST_VIEW,
           post_id: this.post.id,

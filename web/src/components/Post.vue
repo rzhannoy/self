@@ -10,10 +10,8 @@
           {{ createdAt }}
         </div>
         <div class="post-content content">
-          <div v-if="isTeaser" v-html="obj.teaser">
-          </div>
-          <div v-else v-html="obj.content">
-          </div>
+          <div v-if="isTeaser" v-html="obj.teaser"></div>
+          <div v-else v-html="obj.content"></div>
         </div>
         <div v-if="isTeaser" class="post-actions">
           <router-link :to="linkParams">
