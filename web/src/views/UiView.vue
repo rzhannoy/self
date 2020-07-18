@@ -31,8 +31,8 @@ export default {
   methods: {
     setLayoutHeight () {
       this.$nextTick(() => {
-        const footerHeight = this.isMobile ? 65 : 74
-        this.layoutHeight = window.innerHeight - footerHeight
+        const footer = document.getElementsByClassName('component-footer')[0]
+        this.layoutHeight = window.innerHeight - footer.offsetHeight
       })
     },
   },
